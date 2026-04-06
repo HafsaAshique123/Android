@@ -1,0 +1,143 @@
+.navbar {
+  height: 70px;
+}
+
+.nav-link {
+  color: black;
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  color: green;
+}
+
+.btn-dark {
+  background-color: black;
+  border: none;
+}
+
+.btn-dark:hover {
+  background-color: #333;
+}
+body {
+  margin: 0;
+  background: #f5f5f5;
+}
+
+/* Section spacing */
+.hero-section {
+  padding: 60px 20px;
+}
+.hero-section-text{
+    text-align: center;
+
+}
+.video{
+  height: 500px;
+  width: 100%;
+}
+
+
+.card{
+  margin-top: 30px;
+  height: 30rem;
+  
+}
+.card-body{
+  text-align: center;
+  
+  
+}
+.img{
+  height: 100px;
+  width: 60px;
+}
+.btn btn-dark {
+  margin-top: 10px;
+}
+
+
+.footer {
+  font-size: 14px;
+}
+
+.footer h6 {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.footer p {
+  margin: 5px 0;
+  color: #555;
+  cursor: pointer;
+}
+
+.footer p:hover {
+  text-decoration: underline;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+ align-items: center;
+  padding: 20px;
+}
+
+.social-icons i {
+  font-size: 22px;
+  color: #333;
+  cursor: pointer;
+  padding: 12px;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+
+/* Hover effect */
+.social-icons i:hover {
+  background: #000;
+  color: #fff;
+}
+
+/* Active (YouTube circle like screenshot) */
+.social-icons .active {
+  border: 2px solid blue;
+  border-radius: 50%;
+  padding: 12px;
+}
+.footer-bottom {
+  background-color: #f1f3f4;
+  font-size: 14px;
+  color: #555;
+}
+
+.footer-bottom h5 {
+  font-size: 20px;
+}
+
+.privacy-link {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+}
+
+.privacy-link:hover {
+  text-decoration: underline;
+}
+
+.language-select {
+  width: 180px;
+  font-size: 14px;
+}
+
+.footer-text p {
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+  @media (max-width: 768px) {
+  body {
+    background: red;
+  }
+}
+  
